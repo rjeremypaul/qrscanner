@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Scanner</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Scan QR Code</h1>
+        <div id="qr-result"></div>
+        <div id="my-qr-reader"></div>
+        <div id="scanned-list">
+            <h2>Scanned QR Codes:</h2>
+            <ul id="scanned-items"></ul>
+        </div>
+        <button id="stop-scanning-btn">Stop Scanning</button>
+        <button id="save-to-csv-btn">Save to CSV</button>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+</body>
+</html>
